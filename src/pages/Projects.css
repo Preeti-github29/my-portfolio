@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f5f0eb;
+  min-height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.projects-left {
+  max-width: 30%;
+  color: #222;
+}
+
+.projects-left h4 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.projects-left p {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.projects-right {
+  max-width: 65%;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}

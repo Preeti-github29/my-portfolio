@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #eaf4f4; /* new elegant teal tone */
+  min-height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.contact-left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #222;
+}
+
+.contact-left h4 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-left p {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-right {
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 10px;  /* Shift content closer to left */
+  align-items: flex-start;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-icon {
+  font-size: 22px;
+  color: #444;
+}
