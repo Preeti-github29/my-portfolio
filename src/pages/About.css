@@ -2,18 +2,21 @@
 
 .about-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f5f0eb;
-  height: 100vh;
+  flex-wrap: wrap;
+  background-color: #f5f0eb;  
+  min-height: 100vh;
   font-family: 'Cormorant Garamond', serif;
-  padding: 40px;
+  padding: 60px 40px 40px 40px;
   box-sizing: border-box;
+  align-items: flex-start;
 }
 
 .about-left {
-  max-width: 30%;
+  width: 100%;
+  max-width: 25%;
+  padding-right: 30px;
   color: #222;
+  text-align: center;
 }
 
 .about-left h4 {
@@ -26,10 +29,12 @@
 .about-left p {
   font-size: 48px;
   font-weight: bold;
+  margin: 0;
 }
 
 .about-right {
-  max-width: 60%;
+  width: 100%;
+  max-width: 70%;
   font-size: 18px;
   line-height: 1.8;
   color: #333;
