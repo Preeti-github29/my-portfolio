@@ -15,11 +15,11 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="right-section">
+     {/* <div className="right-section">
         <a href="/projects">WORK</a>
         <a href="/about">ABOUT</a>
         <a href="/contact">CONTACT</a>
-      </div>
+      </div>*/}
     </div>
   );
 }
